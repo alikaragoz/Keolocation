@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B51688819F951860006D176 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B51688719F951860006D176 /* main.m */; };
+		7B51689319F951860006D176 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B51689219F951860006D176 /* Images.xcassets */; };
+		7B51689619F951860006D176 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B51689419F951860006D176 /* LaunchScreen.xib */; };
+		7B5168B919F9588C0006D176 /* AKMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5168B519F9588C0006D176 /* AKMapViewController.m */; };
+		7B5168BA19F97DCE0006D176 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5168B219F9588C0006D176 /* AppDelegate.m */; };
+		7B5168BE19F985B40006D176 /* KeoAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5168BD19F985B40006D176 /* KeoAPIClient.m */; };
+		7B5168C219F9A4E20006D176 /* stops.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B5168C119F9A4E20006D176 /* stops.json */; };
+		7B5168C519F9A5AA0006D176 /* AKBusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5168C419F9A5AA0006D176 /* AKBusStop.m */; };
+		7B5168CA19F9A9970006D176 /* KZAsserts.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5168C919F9A9970006D176 /* KZAsserts.m */; };
+		7B5168D119F9ACC10006D176 /* AKBusStopsImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5168D019F9ACC10006D176 /* AKBusStopsImporter.m */; };
+		7B5168D819FA44CD0006D176 /* AKDeparturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5168D719FA44CD0006D176 /* AKDeparturesViewController.m */; };
+		7B5168E119FAB7C10006D176 /* AKDeparture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5168E019FAB7C10006D176 /* AKDeparture.m */; };
+		7B5168E319FAF2130006D176 /* default.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7B5168E219FAF2130006D176 /* default.gpx */; };
+		7B5168E619FBC3740006D176 /* AKKeoAPIError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5168E519FBC3740006D176 /* AKKeoAPIError.m */; };
+		7BCFFD2D19FBDA91001EC435 /* AKStopLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCFFD2B19FBD8BD001EC435 /* AKStopLine.m */; };
+		7BCFFD3E19FBF6ED001EC435 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BCFFD3C19FBF6ED001EC435 /* Localizable.strings */; };
+		7BCFFD4519FBF8A5001EC435 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCFFD4419FBF8A5001EC435 /* Default-568h@2x.png */; };
+		7BCFFD4D19FBFA05001EC435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BCFFD4F19FBFA05001EC435 /* InfoPlist.strings */; };
+		7BCFFD5919FC047F001EC435 /* AKBusStopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCFFD5819FC047F001EC435 /* AKBusStopTests.m */; };
+		7BCFFD5B19FC08EB001EC435 /* AKDepartureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCFFD5A19FC08EB001EC435 /* AKDepartureTests.m */; };
+		7BCFFD5E19FC0BBE001EC435 /* AKKeoAPIErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCFFD5C19FC0B25001EC435 /* AKKeoAPIErrorTests.m */; };
+		7BCFFD6119FC0C93001EC435 /* AKStopLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCFFD5F19FC0C7E001EC435 /* AKStopLineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B51689C19F951860006D176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B51687A19F951860006D176 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B51688119F951860006D176;
+			remoteInfo = Keolocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B51688219F951860006D176 /* Keolocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keolocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B51688719F951860006D176 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B51689219F951860006D176 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B51689B19F951860006D176 /* KeolocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeolocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5168A019F951860006D176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5168B119F9588C0006D176 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		7B5168B219F9588C0006D176 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		7B5168B419F9588C0006D176 /* AKMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKMapViewController.h; sourceTree = "<group>"; };
+		7B5168B519F9588C0006D176 /* AKMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKMapViewController.m; sourceTree = "<group>"; };
+		7B5168BC19F985B40006D176 /* KeoAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeoAPIClient.h; path = ../Controller/KeoAPIClient.h; sourceTree = "<group>"; };
+		7B5168BD19F985B40006D176 /* KeoAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeoAPIClient.m; path = ../Controller/KeoAPIClient.m; sourceTree = "<group>"; };
+		7B5168BF19F987120006D176 /* KeolocationConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeolocationConstants.h; path = Classes/KeolocationConstants.h; sourceTree = "<group>"; };
+		7B5168C119F9A4E20006D176 /* stops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stops.json; sourceTree = "<group>"; };
+		7B5168C319F9A5AA0006D176 /* AKBusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKBusStop.h; sourceTree = "<group>"; };
+		7B5168C419F9A5AA0006D176 /* AKBusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKBusStop.m; sourceTree = "<group>"; };
+		7B5168C819F9A9970006D176 /* KZAsserts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZAsserts.h; sourceTree = "<group>"; };
+		7B5168C919F9A9970006D176 /* KZAsserts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZAsserts.m; sourceTree = "<group>"; };
+		7B5168CF19F9ACC10006D176 /* AKBusStopsImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKBusStopsImporter.h; sourceTree = "<group>"; };
+		7B5168D019F9ACC10006D176 /* AKBusStopsImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKBusStopsImporter.m; sourceTree = "<group>"; };
+		7B5168D619FA44CD0006D176 /* AKDeparturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDeparturesViewController.h; sourceTree = "<group>"; };
+		7B5168D719FA44CD0006D176 /* AKDeparturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDeparturesViewController.m; sourceTree = "<group>"; };
+		7B5168DF19FAB7C10006D176 /* AKDeparture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDeparture.h; sourceTree = "<group>"; };
+		7B5168E019FAB7C10006D176 /* AKDeparture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDeparture.m; sourceTree = "<group>"; };
+		7B5168E219FAF2130006D176 /* default.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = default.gpx; path = ../default.gpx; sourceTree = "<group>"; };
+		7B5168E419FBC3740006D176 /* AKKeoAPIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKKeoAPIError.h; sourceTree = "<group>"; };
+		7B5168E519FBC3740006D176 /* AKKeoAPIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKKeoAPIError.m; sourceTree = "<group>"; };
+		7BCFFD2A19FBD8BD001EC435 /* AKStopLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKStopLine.h; sourceTree = "<group>"; };
+		7BCFFD2B19FBD8BD001EC435 /* AKStopLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKStopLine.m; sourceTree = "<group>"; };
+		7BCFFD3B19FBF6D4001EC435 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7BCFFD3D19FBF6ED001EC435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7BCFFD4019FBF700001EC435 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7BCFFD4419FBF8A5001EC435 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		7BCFFD4619FBF987001EC435 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCFFD4E19FBFA05001EC435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BCFFD5019FBFA06001EC435 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BCFFD5819FC047F001EC435 /* AKBusStopTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKBusStopTests.m; sourceTree = "<group>"; };
+		7BCFFD5A19FC08EB001EC435 /* AKDepartureTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDepartureTests.m; sourceTree = "<group>"; };
+		7BCFFD5C19FC0B25001EC435 /* AKKeoAPIErrorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKKeoAPIErrorTests.m; sourceTree = "<group>"; };
+		7BCFFD5F19FC0C7E001EC435 /* AKStopLineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKStopLineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B51687F19F951860006D176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B51689819F951860006D176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B51687919F951860006D176 = {
+			isa = PBXGroup;
+			children = (
+				7B51688419F951860006D176 /* Keolocation */,
+				7B51689E19F951860006D176 /* KeolocationTests */,
+				7B51688319F951860006D176 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B51688319F951860006D176 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B51688219F951860006D176 /* Keolocation.app */,
+				7B51689B19F951860006D176 /* KeolocationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B51688419F951860006D176 /* Keolocation */ = {
+			isa = PBXGroup;
+			children = (
+				7B5168BF19F987120006D176 /* KeolocationConstants.h */,
+				7B5168B119F9588C0006D176 /* AppDelegate.h */,
+				7B5168B219F9588C0006D176 /* AppDelegate.m */,
+				7B5168B319F9588C0006D176 /* Controller */,
+				7B5168B619F9588C0006D176 /* Model */,
+				7B5168CE19F9ACC10006D176 /* Utils */,
+				7B5168C619F9A9970006D176 /* Vendor */,
+				7BCFFD4A19FBF9CB001EC435 /* Ressources */,
+				7B51688519F951860006D176 /* Supporting Files */,
+			);
+			path = Keolocation;
+			sourceTree = "<group>";
+		};
+		7B51688519F951860006D176 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BCFFD4619FBF987001EC435 /* Info.plist */,
+				7B51688719F951860006D176 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B51689E19F951860006D176 /* KeolocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BCFFD5719FC047F001EC435 /* Model */,
+				7B51689F19F951860006D176 /* Supporting Files */,
+			);
+			path = KeolocationTests;
+			sourceTree = "<group>";
+		};
+		7B51689F19F951860006D176 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B5168A019F951860006D176 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B5168B319F9588C0006D176 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B5168D619FA44CD0006D176 /* AKDeparturesViewController.h */,
+				7B5168D719FA44CD0006D176 /* AKDeparturesViewController.m */,
+				7B5168B419F9588C0006D176 /* AKMapViewController.h */,
+				7B5168B519F9588C0006D176 /* AKMapViewController.m */,
+			);
+			name = Controller;
+			path = Classes/Controller;
+			sourceTree = "<group>";
+		};
+		7B5168B619F9588C0006D176 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B5168C319F9A5AA0006D176 /* AKBusStop.h */,
+				7B5168C419F9A5AA0006D176 /* AKBusStop.m */,
+				7B5168DF19FAB7C10006D176 /* AKDeparture.h */,
+				7B5168E019FAB7C10006D176 /* AKDeparture.m */,
+				7B5168E419FBC3740006D176 /* AKKeoAPIError.h */,
+				7B5168E519FBC3740006D176 /* AKKeoAPIError.m */,
+				7BCFFD2A19FBD8BD001EC435 /* AKStopLine.h */,
+				7BCFFD2B19FBD8BD001EC435 /* AKStopLine.m */,
+			);
+			name = Model;
+			path = Classes/Model;
+			sourceTree = "<group>";
+		};
+		7B5168C619F9A9970006D176 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7B5168C719F9A9970006D176 /* KZAssert */,
+			);
+			name = Vendor;
+			path = Classes/Vendor;
+			sourceTree = "<group>";
+		};
+		7B5168C719F9A9970006D176 /* KZAssert */ = {
+			isa = PBXGroup;
+			children = (
+				7B5168C819F9A9970006D176 /* KZAsserts.h */,
+				7B5168C919F9A9970006D176 /* KZAsserts.m */,
+			);
+			path = KZAssert;
+			sourceTree = "<group>";
+		};
+		7B5168CE19F9ACC10006D176 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7B5168BC19F985B40006D176 /* KeoAPIClient.h */,
+				7B5168BD19F985B40006D176 /* KeoAPIClient.m */,
+				7B5168CF19F9ACC10006D176 /* AKBusStopsImporter.h */,
+				7B5168D019F9ACC10006D176 /* AKBusStopsImporter.m */,
+			);
+			name = Utils;
+			path = Classes/Utils;
+			sourceTree = "<group>";
+		};
+		7BCFFD4A19FBF9CB001EC435 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				7B51689219F951860006D176 /* Images.xcassets */,
+				7BCFFD5319FBFF75001EC435 /* GPX */,
+				7BCFFD4B19FBF9E3001EC435 /* Images */,
+				7BCFFD5219FBFF61001EC435 /* JSON */,
+				7BCFFD4C19FBF9FB001EC435 /* Strings */,
+				7BCFFD5119FBFF4F001EC435 /* Xibs */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		7BCFFD4B19FBF9E3001EC435 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7BCFFD4419FBF8A5001EC435 /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7BCFFD4C19FBF9FB001EC435 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				7BCFFD3C19FBF6ED001EC435 /* Localizable.strings */,
+				7BCFFD4F19FBFA05001EC435 /* InfoPlist.strings */,
+			);
+			name = Strings;
+			sourceTree = "<group>";
+		};
+		7BCFFD5119FBFF4F001EC435 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				7B51689419F951860006D176 /* LaunchScreen.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		7BCFFD5219FBFF61001EC435 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7B5168C119F9A4E20006D176 /* stops.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		7BCFFD5319FBFF75001EC435 /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				7B5168E219FAF2130006D176 /* default.gpx */,
+			);
+			name = GPX;
+			sourceTree = "<group>";
+		};
+		7BCFFD5719FC047F001EC435 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BCFFD5819FC047F001EC435 /* AKBusStopTests.m */,
+				7BCFFD5A19FC08EB001EC435 /* AKDepartureTests.m */,
+				7BCFFD5C19FC0B25001EC435 /* AKKeoAPIErrorTests.m */,
+				7BCFFD5F19FC0C7E001EC435 /* AKStopLineTests.m */,
+			);
+			name = Model;
+			path = Classes/Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B51688119F951860006D176 /* Keolocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5168A519F951860006D176 /* Build configuration list for PBXNativeTarget "Keolocation" */;
+			buildPhases = (
+				7B51687E19F951860006D176 /* Sources */,
+				7B51687F19F951860006D176 /* Frameworks */,
+				7B51688019F951860006D176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keolocation;
+			productName = Keolocation;
+			productReference = 7B51688219F951860006D176 /* Keolocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B51689A19F951860006D176 /* KeolocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5168A819F951860006D176 /* Build configuration list for PBXNativeTarget "KeolocationTests" */;
+			buildPhases = (
+				7B51689719F951860006D176 /* Sources */,
+				7B51689819F951860006D176 /* Frameworks */,
+				7B51689919F951860006D176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B51689D19F951860006D176 /* PBXTargetDependency */,
+			);
+			name = KeolocationTests;
+			productName = KeolocationTests;
+			productReference = 7B51689B19F951860006D176 /* KeolocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B51687A19F951860006D176 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					7B51688119F951860006D176 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					7B51689A19F951860006D176 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7B51688119F951860006D176;
+					};
+				};
+			};
+			buildConfigurationList = 7B51687D19F951860006D176 /* Build configuration list for PBXProject "Keolocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = 7B51687919F951860006D176;
+			productRefGroup = 7B51688319F951860006D176 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B51688119F951860006D176 /* Keolocation */,
+				7B51689A19F951860006D176 /* KeolocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B51688019F951860006D176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCFFD4D19FBFA05001EC435 /* InfoPlist.strings in Resources */,
+				7BCFFD3E19FBF6ED001EC435 /* Localizable.strings in Resources */,
+				7B51689619F951860006D176 /* LaunchScreen.xib in Resources */,
+				7B5168E319FAF2130006D176 /* default.gpx in Resources */,
+				7B51689319F951860006D176 /* Images.xcassets in Resources */,
+				7B5168C219F9A4E20006D176 /* stops.json in Resources */,
+				7BCFFD4519FBF8A5001EC435 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B51689919F951860006D176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B51687E19F951860006D176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5168E119FAB7C10006D176 /* AKDeparture.m in Sources */,
+				7B5168E619FBC3740006D176 /* AKKeoAPIError.m in Sources */,
+				7B51688819F951860006D176 /* main.m in Sources */,
+				7B5168D819FA44CD0006D176 /* AKDeparturesViewController.m in Sources */,
+				7B5168D119F9ACC10006D176 /* AKBusStopsImporter.m in Sources */,
+				7B5168BE19F985B40006D176 /* KeoAPIClient.m in Sources */,
+				7B5168CA19F9A9970006D176 /* KZAsserts.m in Sources */,
+				7BCFFD2D19FBDA91001EC435 /* AKStopLine.m in Sources */,
+				7B5168B919F9588C0006D176 /* AKMapViewController.m in Sources */,
+				7B5168BA19F97DCE0006D176 /* AppDelegate.m in Sources */,
+				7B5168C519F9A5AA0006D176 /* AKBusStop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B51689719F951860006D176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCFFD5B19FC08EB001EC435 /* AKDepartureTests.m in Sources */,
+				7BCFFD6119FC0C93001EC435 /* AKStopLineTests.m in Sources */,
+				7BCFFD5E19FC0BBE001EC435 /* AKKeoAPIErrorTests.m in Sources */,
+				7BCFFD5919FC047F001EC435 /* AKBusStopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B51689D19F951860006D176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B51688119F951860006D176 /* Keolocation */;
+			targetProxy = 7B51689C19F951860006D176 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B51689419F951860006D176 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCFFD3B19FBF6D4001EC435 /* en */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7BCFFD3C19FBF6ED001EC435 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCFFD3D19FBF6ED001EC435 /* en */,
+				7BCFFD4019FBF700001EC435 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7BCFFD4F19FBFA05001EC435 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCFFD4E19FBFA05001EC435 /* en */,
+				7BCFFD5019FBFA06001EC435 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B5168A319F951860006D176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Keolocation/en.lproj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B5168A419F951860006D176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Keolocation/en.lproj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B5168A619F951860006D176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Keolocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Debug;
+		};
+		7B5168A719F951860006D176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Keolocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Release;
+		};
+		7B5168A919F951860006D176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeolocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keolocation.app/Keolocation";
+			};
+			name = Debug;
+		};
+		7B5168AA19F951860006D176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeolocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keolocation.app/Keolocation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B51687D19F951860006D176 /* Build configuration list for PBXProject "Keolocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5168A319F951860006D176 /* Debug */,
+				7B5168A419F951860006D176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5168A519F951860006D176 /* Build configuration list for PBXNativeTarget "Keolocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5168A619F951860006D176 /* Debug */,
+				7B5168A719F951860006D176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5168A819F951860006D176 /* Build configuration list for PBXNativeTarget "KeolocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5168A919F951860006D176 /* Debug */,
+				7B5168AA19F951860006D176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B51687A19F951860006D176 /* Project object */;
+}

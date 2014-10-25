@@ -1,0 +1,9 @@
+/* 
+  Info.strings
+  Keolocation
+
+  Created by Ali Karagoz on 25/10/14.
+
+*/
+
+"NSLocationWhenInUseUsageDescription" = "(Votre localisation est nécéssaire afin de pouvoir vous identifier sur la carte.)";

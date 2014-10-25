@@ -1,0 +1,9 @@
+/* 
+  Info.strings
+  Keolocation
+
+  Created by Ali Karagoz on 25/10/14.
+
+*/
+
+"NSLocationWhenInUseUsageDescription" = "(Your location is necessary in order to be able to get your position on a map.)";

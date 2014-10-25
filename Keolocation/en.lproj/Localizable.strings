@@ -1,0 +1,12 @@
+/* 
+  Localizations.strings
+  Keolocation
+
+  Created by Ali Karagoz on 25/10/14.
+
+*/
+
+"_ERROR_" = "Error";
+"_OK_" = "Ok";
+"_REQUEST_ERROR_" = "An error occured while making the request.";
+"_ROUTE_" = "Route";
