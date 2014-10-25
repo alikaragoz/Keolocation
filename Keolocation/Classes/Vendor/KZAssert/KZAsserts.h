@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Pixle. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 #ifndef KZAssertsIncluded
 
