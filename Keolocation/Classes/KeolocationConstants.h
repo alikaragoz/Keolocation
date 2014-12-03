@@ -6,6 +6,7 @@
 //
 //
 
-static NSString *const KeoLocationAPIClientKey = @"GVVP9XQZRTESWJM";
+#warning Add your Keolis API key below.
+static NSString *const KeoLocationAPIClientKey = @"<API_CLIENT_KEY>";
 static NSString *const KeoLocationAPIClientURL = @"http://data.keolis-rennes.com";
 static NSString *const KeoLocationAPIClientPath = @"json";
